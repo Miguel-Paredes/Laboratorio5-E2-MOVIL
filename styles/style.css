@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9792e328;
+}
+.encabezado{
+    font-size: 2em;
+    text-align: center;
+}
+.descripcion{
+    font-size: 1.3em;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #33333388;
+}
+.navegador{
+    background-color: white;
+    display: flexbox;
+    max-width: 80%;
+    margin: auto;
+}
+.supervisor, .team_builder, .karma, .calculator{
+    padding: 15px;
+    max-width: 85%;
+}
+.supervisor{
+    border-top: 4px solid aquamarine;
+    max-width: 100%;
+}
+.team_builder{
+    border-top: 4px solid red;
+    max-width: 100%;
+}
+.karma{
+    border-top: 4px solid yellow;
+    max-width: 100%;
+}
+.calculator{
+    border-top: 4px solid blue;
+    max-width: 100%;
+}
+.titulo{
+    font-size: 1.3em;
+}
+.describir{
+    color: #33333341;
+}
+.separador{
+    color: #9792e328;
+    background-color: #9792e328;
+}
+.imagenes{
+    display: flex;
+    justify-content: end;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
